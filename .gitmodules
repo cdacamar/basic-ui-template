@@ -1,0 +1,6 @@
+[submodule "external/nanosvg"]
+	path = external/nanosvg
+	url = https://github.com/memononen/nanosvg
+[submodule "external/tomlplusplus"]
+	path = external/tomlplusplus
+	url = https://github.com/marzer/tomlplusplus
