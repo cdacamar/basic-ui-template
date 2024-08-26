@@ -20,6 +20,8 @@ This is streamlined primarily for Visual Studio 2022.
 
 Open an x64 developer command prompt.
 ```batch
+$ git clone https://github.com/cdacamar/basic-ui-template && cd basic-ui-template
+$ git submodule init && git submodule update
 $ mkdir build && cd build
 $ cmake .. -DCMAKE_TOOLCHAIN_FILE="%VCPKG_ROOT%\scripts\buildsystems\vcpkg.cmake"
 $ msbuild basic-ui-template.vcxproj
